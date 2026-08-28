@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flange Tech | Precision Industrial Manufacturing</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              blue: '#2373a6',
+              darkBlue: '#1a5982',
+              black: '#111827',
+              gray: '#f8fafc',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-brand-blue selection:text-white">
+
+  <!-- Navigation -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="#" class="flex items-center">
+        <img src="email signature.png" alt="Flange Tech Logo" class="h-10 sm:h-12 w-auto object-contain" />
+      </a>
+      
+      <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-700">
+        <a href="#capabilities" class="hover:text-brand-blue transition">Capabilities</a>
+        <a href="#about" class="hover:text-brand-blue transition">About</a>
+        <a href="#team" class="hover:text-brand-blue transition">Our Team</a>
+        <a href="#contact" class="hover:text-brand-blue transition">Contact</a>
+      </nav>
+
+      <div class="hidden sm:flex items-center">
+        <a href="#contact" class="inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-brand-blue hover:bg-brand-darkBlue text-white text-sm font-semibold shadow-sm transition">
+          Request a Quote
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden bg-white border-b border-slate-200 py-16 sm:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 text-xs font-semibold text-slate-700 uppercase tracking-wider">
+            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+            Framingham, MA Headquarters
+          </div>
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.1]">
+            High Strength <span class="text-brand-blue">Engineered Flanges</span>
+          </h1>
+          <p class="text-lg text-slate-600 max-w-2xl leading-relaxed">
+            Flange Tech delivers a new standard of strength and capability. Engineered for demanding mechanical applications.
+          </p>
+          <div class="flex flex-wrap gap-4 pt-2">
+            <a href="#contact" class="px-6 py-3 rounded-lg bg-slate-900 hover:bg-slate-800 text-white font-semibold transition">
+              Get in Touch
+            </a>
+            <a href="#capabilities" class="px-6 py-3 rounded-lg border border-slate-300 hover:bg-slate-100 font-semibold text-slate-700 transition">
+              Explore Capabilities
+            </a>
+          </div>
+          <div class="grid grid-cols-3 gap-6 pt-6 border-t border-slate-100 max-w-lg">
+            <div>
+              <div class="text-2xl font-bold text-slate-900">IAPMO</div>
+              <div class="text-xs text-slate-500 font-medium">Pending Certification</div>
+            </div>
+            <div>
+              <div class="text-2xl font-bold text-slate-900">ASME</div>
+              <div class="text-xs text-slate-500 font-medium">Standard Compliance</div>
+            </div>
+            <div>
+              <div class="text-2xl font-bold text-slate-900">ASTM</div>
+              <div class="text-xs text-slate-500 font-medium">Code Approved</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5 flex justify-center">
+          <div class="relative w-full max-w-sm aspect-square bg-slate-50 rounded-3xl border border-slate-200 p-8 flex items-center justify-center shadow-xl">
+            <div class="absolute inset-0 bg-gradient-to-tr from-brand-blue/10 via-transparent to-slate-200/40 rounded-3xl"></div>
+            <img src="FT logo.png" alt="Flange Tech Emblem" class="relative z-10 w-4/5 h-4/5 object-contain drop-shadow-md" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Capabilities Section -->
+  <section id="capabilities" class="py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-brand-blue mb-2">Our Capabilities</h2>
+        <p class="text-3xl font-extrabold text-slate-900 tracking-tight">Built for Heavy-Duty Performance</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-xl bg-brand-blue/10 flex items-center justify-center text-brand-blue font-bold text-lg mb-6">
+            01
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3">Prototyping</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Designing and creating new methods of sanitary flanges. Working with design and test engineers to craft the newest genertion of plumbing code.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-xl bg-brand-blue/10 flex items-center justify-center text-brand-blue font-bold text-lg mb-6">
+            02
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3">CNC Precision Manufacturing</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            High performance thermoplastics, PVC, ABS, Carbon Fiber and Glass Fiber reinforced polyamide. Laser cut 4130 chromoly steel.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-xl bg-brand-blue/10 flex items-center justify-center text-brand-blue font-bold text-lg mb-6">
+            03
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3">Strength Testing &amp; QA</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Detailed reports on mounting strength, yeild strength and deformation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Facility Strip -->
+  <section id="about" class="py-16 bg-slate-900 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-4">
+          <div class="text-xs font-bold uppercase tracking-widest text-brand-blue">Headquarters &amp; Operations</div>
+          <h2 class="text-3xl font-extrabold tracking-tight">Based in Framingham, Massachusetts</h2>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Flange Tech operates directly out of Framingham, MA, offering responsive customer service, direct engineering collaboration, and rapid component delivery across the region and beyond.
+          </p>
+        </div>
+        <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700">
+          <h4 class="font-bold text-slate-200 text-base mb-2">General Corporate Inquiries</h4>
+          <p class="text-sm text-slate-400 mb-4">Send design drawings, RFP packages, or standard questions directly to our primary inbox:</p>
+          <a href="mailto:contact@flangetech.com" class="inline-flex items-center text-brand-blue hover:text-white font-semibold text-lg transition">
+            contact@flangetech.com &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team / Contacts Section -->
+  <section id="team" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-brand-blue mb-2">Key Contacts</h2>
+        <p class="text-3xl font-extrabold text-slate-900 tracking-tight">Connect Directly With Our Team</p>
+        <p class="text-sm text-slate-500 mt-2">Reach out to our main points of contact for project scoping, orders, and support.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <!-- Chris -->
+        <div class="p-6 rounded-xl border border-slate-200 bg-slate-50/50 text-center hover:border-brand-blue/50 transition">
+          <div class="w-14 h-14 mx-auto rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-lg mb-4">
+            C
+          </div>
+          <h3 class="font-bold text-slate-900 text-lg">Chris</h3>
+          <p class="text-xs text-slate-500 font-medium mb-3">Flange Tech Contact</p>
+          <a href="mailto:chris@flangetech.com" class="text-xs sm:text-sm font-semibold text-brand-blue hover:underline break-all">
+            chris@flangetech.com
+          </a>
+        </div>
+
+        <!-- John -->
+        <div class="p-6 rounded-xl border border-slate-200 bg-slate-50/50 text-center hover:border-brand-blue/50 transition">
+          <div class="w-14 h-14 mx-auto rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-lg mb-4">
+            J
+          </div>
+          <h3 class="font-bold text-slate-900 text-lg">John</h3>
+          <p class="text-xs text-slate-500 font-medium mb-3">Flange Tech Contact</p>
+          <a href="mailto:john@flangetech.com" class="text-xs sm:text-sm font-semibold text-brand-blue hover:underline break-all">
+            john@flangetech.com
+          </a>
+        </div>
+
+        <!-- Taylor -->
+        <div class="p-6 rounded-xl border border-slate-200 bg-slate-50/50 text-center hover:border-brand-blue/50 transition">
+          <div class="w-14 h-14 mx-auto rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-lg mb-4">
+            T
+          </div>
+          <h3 class="font-bold text-slate-900 text-lg">Taylor</h3>
+          <p class="text-xs text-slate-500 font-medium mb-3">Flange Tech Contact</p>
+          <a href="mailto:taylor@flangetech.com" class="text-xs sm:text-sm font-semibold text-brand-blue hover:underline break-all">
+            taylor@flangetech.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact" class="py-20 bg-slate-100 border-t border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-3xl border border-slate-200 p-8 sm:p-12 shadow-sm">
+        <div class="text-center max-w-xl mx-auto mb-10">
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">Request a Quote or Specification Review</h2>
+          <p class="text-sm text-slate-500 mt-2">Submit your requirements and our team in Framingham will respond promptly.</p>
+        </div>
+
+        <form action="#" method="POST" class="space-y-6">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-semibold uppercase text-slate-700 mb-2">Full Name</label>
+              <input type="text" required placeholder="Jane Doe" class="w-full px-4 py-3 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-blue" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold uppercase text-slate-700 mb-2">Work Email</label>
+              <input type="email" required placeholder="jane@company.com" class="w-full px-4 py-3 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-blue" />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-semibold uppercase text-slate-700 mb-2">Company / Organization</label>
+              <input type="text" placeholder="Company Name" class="w-full px-4 py-3 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-blue" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold uppercase text-slate-700 mb-2">Direct Contact To</label>
+              <select class="w-full px-4 py-3 rounded-lg border border-slate-300 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-brand-blue text-slate-700">
+                <option value="contact@flangetech.com">General Inquiries (contact@flangetech.com)</option>
+                <option value="chris@flangetech.com">Chris (chris@flangetech.com)</option>
+                <option value="john@flangetech.com">John (john@flangetech.com)</option>
+                <option value="taylor@flangetech.com">Taylor (taylor@flangetech.com)</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold uppercase text-slate-700 mb-2">Project Details &amp; Specifications</label>
+            <textarea rows="4" placeholder="Include flange sizes, pressure ratings, materials, quantities, and lead time requirements..." class="w-full px-4 py-3 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-blue"></textarea>
+          </div>
+
+          <button type="submit" class="w-full py-3.5 rounded-lg bg-brand-blue hover:bg-brand-darkBlue text-white font-semibold text-sm transition">
+            Send Inquiry
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-slate-200 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+        <img src="email signature.png" alt="Flange Tech" class="h-8 w-auto object-contain" />
+        <div class="text-xs text-slate-500 text-center sm:text-right">
+          <p class="font-medium text-slate-700">Flange Tech &bull; Framingham, MA</p>
+          <p class="mt-1">&copy; 2026 Flange Tech. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
